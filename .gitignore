@@ -5,3 +5,9 @@ target/
 build/
 node_modules/
 .env
+
+# Gradle (product-builder/backend)
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+out/
+*.log
