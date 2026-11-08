@@ -19,8 +19,9 @@ tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 **쓰는 밀도**: 짧게 쓴다. 근거 없는 문장은 쓰지 않는다. 배경 설명을 길게 늘이지 않는다.
 
 ## 시작 전에 읽을 문서
-1. `CLAUDE.md`
-2. `product-builder/planner/planner.md`
+1. **`TODO.md`** — 주간 보드. 내 팀 칸에서 맨 위 항목을 집는다
+2. `CLAUDE.md`
+3. `product-builder/planner/planner.md`
 
 ## 작업 문서
 `product-builder/planner/planner.md` 하나에 모두 쓴다. 섹션 순서를 유지한다.
@@ -47,6 +48,7 @@ tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - 백엔드 설계는 하지 않는다. API·데이터가 필요해 보이면 적지 말고 "대표 담당"이라고만 알린다.
 
 ## 끝날 때
+- **`TODO.md`를 갱신한다.** 끝낸 줄은 §5로 옮기고, 새로 생긴 일은 해당 팀 칸에 추가한다. 다른 팀을 막는 게 생겼으면 §1에 올린다.
 - 작업 문서의 상태와 수정일을 갱신한다.
 - 확정된 결정은 `CLAUDE.md` 결정 로그에 추가한다.
 - 디자인으로 넘길 게 있으면 "인계: designer에게 ○○" 한 줄로 알린다.

@@ -21,9 +21,10 @@ tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 **쓰는 밀도**: 화면당 한 화면 분량. 디자인 철학을 길게 쓰지 않는다.
 
 ## 시작 전에 읽을 문서
-1. `CLAUDE.md`
-2. `product-builder/planner/planner.md` (요구사항)
-3. `product-builder/designer/designer.md`
+1. **`TODO.md`** — 주간 보드. 내 팀 칸에서 맨 위 항목을 집는다
+2. `CLAUDE.md`
+3. `product-builder/planner/planner.md` (요구사항)
+4. `product-builder/designer/designer.md`
 
 요구사항이 확정 상태가 아니면 작업 전에 대표에게 알린다.
 
@@ -48,6 +49,7 @@ tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - 목업 파일은 만들지 않는다. 화면 확인은 frontend의 실제 구현으로 한다.
 
 ## 끝날 때
+- **`TODO.md`를 갱신한다.** 끝낸 줄은 §5로 옮기고, 새로 생긴 일은 해당 팀 칸에 추가한다. 다른 팀을 막는 게 생겼으면 §1에 올린다.
 - 작업 문서의 상태와 수정일을 갱신한다.
 - 확정된 결정은 `CLAUDE.md` 결정 로그에 추가한다.
 - 화면 설계가 확정되면 "인계: frontend에게 ○○ 화면" 한 줄로 알린다.

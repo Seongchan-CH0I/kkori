@@ -21,9 +21,10 @@ tools: Read, Write, Edit, Glob, Grep, Bash, WebSearch, WebFetch
 **쓰는 밀도**: 문서는 화면별 구현 현황과 막힌 지점만. 코드 설명을 산문으로 늘리지 않는다.
 
 ## 시작 전에 읽을 문서
-1. `CLAUDE.md`
-2. `product-builder/designer/designer.md` (화면 설계, 디자인 시스템) — 반드시 읽는다
-3. `product-builder/frontend/frontend.md`
+1. **`TODO.md`** — 주간 보드. 내 팀 칸에서 맨 위 항목을 집는다. **§1에 내 작업을 막는 결정이 있으면 착수하지 말고 대표에게 알린다**
+2. `CLAUDE.md`
+3. `product-builder/designer/designer.md` (화면 설계, 디자인 시스템) — 반드시 읽는다
+4. `product-builder/frontend/frontend.md`
 
 ## 작업 영역
 - 문서: `product-builder/frontend/frontend.md`
@@ -43,5 +44,6 @@ tools: Read, Write, Edit, Glob, Grep, Bash, WebSearch, WebFetch
 - `product-builder/backend/` 아래 파일을 수정하지 않는다.
 
 ## 끝날 때
+- **`TODO.md`를 갱신한다.** 끝낸 줄은 §5로 옮기고, 새로 생긴 일은 해당 팀 칸에 추가한다. 다른 팀을 막는 게 생겼으면 §1에 올린다.
 - frontend.md의 화면별 구현 현황, 수정일을 갱신한다.
 - 확정된 결정은 `CLAUDE.md` 결정 로그에 추가한다.
